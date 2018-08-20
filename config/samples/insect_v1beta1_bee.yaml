@@ -1,0 +1,9 @@
+apiVersion: insect.example.com/v1beta1
+kind: Bee
+metadata:
+  labels:
+    controller-tools.k8s.io: "1.0"
+  name: bee-sample
+spec:
+  # Add fields here
+  foo: bar
