@@ -22,9 +22,9 @@ required = [
 # STANZAS BELOW ARE GENERATED AND MAY BE WRITTEN - DO NOT MODIFY BELOW THIS LINE.
 
 [[constraint]]
-name="sigs.k8s.io/controller-runtime"
-source="github.com/droot/controller-runtime"
-branch="k8s-1.10-with-clean-deps"
+  name="sigs.k8s.io/controller-runtime"
+  source="github.com/DirectXMan12/controller-runtime"
+  branch="bug/glog-hunting-mark-2"
 
 [[constraint]]
 name="sigs.k8s.io/controller-tools"
